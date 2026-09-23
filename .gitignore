@@ -1,0 +1,27 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш весов модели / Hugging Face
+cache/
+**/huggingface/
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Логи и временные файлы
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Секреты (на всякий случай, если появится .env с токенами HF)
+.env
