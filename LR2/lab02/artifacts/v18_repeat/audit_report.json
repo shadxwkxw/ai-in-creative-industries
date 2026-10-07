@@ -1,0 +1,32 @@
+[
+  {
+    "rule": "R9",
+    "severity": "warning",
+    "item": "item02",
+    "message": "контрольная сумма совпадает с item01 — дубликат"
+  },
+  {
+    "rule": "R8",
+    "severity": "warning",
+    "item": "item03",
+    "message": "не указана дата получения"
+  },
+  {
+    "rule": "R8",
+    "severity": "warning",
+    "item": "item07",
+    "message": "не указан источник"
+  },
+  {
+    "rule": "R9",
+    "severity": "warning",
+    "item": "item08",
+    "message": "контрольная сумма совпадает с item05 — дубликат"
+  },
+  {
+    "rule": "R8",
+    "severity": "warning",
+    "item": "item11",
+    "message": "не указаны источник и дата получения"
+  }
+]
