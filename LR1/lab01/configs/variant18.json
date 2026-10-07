@@ -1,0 +1,13 @@
+{
+  "variant": 18,
+  "context": "marble",
+  "context_title": "мраморный узор (обложка)",
+  "factor": "interp",
+  "factor_title": "линейная интерполяция вместо сглаженной",
+  "params_base": {"size": 96, "cell": 24, "octaves": 5, "persistence": 0.55, "quantize": 8, "interp": "smooth"},
+  "params_perturbed": {"size": 96, "cell": 24, "octaves": 5, "persistence": 0.55, "quantize": 8, "interp": "linear"},
+  "base_seed": 101,
+  "n": 5,
+  "significance_rule": "|Δ| > 2·s_base",
+  "command": "python src/lab01_experiment.py --variant 18 --out artifacts/v18"
+}

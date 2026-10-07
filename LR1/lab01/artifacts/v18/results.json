@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-24 13:51:40 UTC",
+  "variant": 18,
+  "context": "marble",
+  "context_title": "мраморный узор (обложка)",
+  "factor": "interp",
+  "factor_title": "линейная интерполяция вместо сглаженной",
+  "base_seed": 101,
+  "n": 5,
+  "seeds_repro": [
+    101,
+    101,
+    1101,
+    101
+  ],
+  "eq": {
+    "EQ_1_2": true,
+    "EQ_1_4": true,
+    "EQ_1_3": false,
+    "EQ_2_4": true
+  },
+  "eq_png": {
+    "EQ_1_2_png": true
+  },
+  "params_base": {
+    "size": 96,
+    "cell": 24,
+    "octaves": 5,
+    "persistence": 0.55,
+    "quantize": 8,
+    "interp": "smooth"
+  },
+  "params_perturbed": {
+    "size": 96,
+    "cell": 24,
+    "octaves": 5,
+    "persistence": 0.55,
+    "quantize": 8,
+    "interp": "linear"
+  },
+  "runs_repro": [
+    {
+      "seed": 101,
+      "params": {
+        "size": 96,
+        "cell": 24,
+        "octaves": 5,
+        "persistence": 0.55,
+        "quantize": 8,
+        "interp": "smooth"
+      },
+      "sha256_pixels": "5922bd3272028a64cbef5b074ad21cce7e500aa05e3f629eb2fce51c1ce37eea",
+      "sha256_png": "77266806ef1677cecda4a4d4dc0242155c1f41517f83ad1407a340d566f399fe",
+      "mean": 0.47434810729847493,
+      "contrast": 0.12202149759631219,
+      "edge": 0.02036205710354317,
+      "entropy": 6.946235572761144
+    },
+    {
+      "seed": 101,
+      "params": {
+        "size": 96,
+        "cell": 24,
+        "octaves": 5,
+        "persistence": 0.55,
+        "quantize": 8,
+        "interp": "smooth"
+      },
+      "sha256_pixels": "5922bd3272028a64cbef5b074ad21cce7e500aa05e3f629eb2fce51c1ce37eea",
+      "sha256_png": "77266806ef1677cecda4a4d4dc0242155c1f41517f83ad1407a340d566f399fe",
+      "mean": 0.47434810729847493,
+      "contrast": 0.12202149759631219,
+      "edge": 0.02036205710354317,
+      "entropy": 6.946235572761144
+    },
+    {
+      "seed": 1101,
+      "params": {
+        "size": 96,
+        "cell": 24,
+        "octaves": 5,
+        "persistence": 0.55,
+        "quantize": 8,
+        "interp": "smooth"
+      },
+      "sha256_pixels": "5f5d84203e2d520b09546d42aaf0aee2c451952ac9b96087f5af60e4c4019fba",
+      "sha256_png": "22ffe0be57cc6c83ac576a76081f36016fe4cd10c78bf2553c560596c799efe2",
+      "mean": 0.5345864821623093,
+      "contrast": 0.11190192131906133,
+      "edge": 0.020012899896800825,
+      "entropy": 6.840012267067939
+    },
+    {
+      "seed": 101,
+      "params": {
+        "size": 96,
+        "cell": 24,
+        "octaves": 5,
+        "persistence": 0.55,
+        "quantize": 8,
+        "interp": "smooth"
+      },
+      "sha256_pixels": "5922bd3272028a64cbef5b074ad21cce7e500aa05e3f629eb2fce51c1ce37eea",
+      "sha256_png": "77266806ef1677cecda4a4d4dc0242155c1f41517f83ad1407a340d566f399fe",
+      "mean": 0.47434810729847493,
+      "contrast": 0.12202149759631219,
+      "edge": 0.02036205710354317,
+      "entropy": 6.946235572761144
+    }
+  ],
+  "metrics_table": {
+    "mean": {
+      "mean_base": 0.49432078907952065,
+      "s_base": 0.013439509878670902,
+      "mean_pert": 0.4943102362472767,
+      "s_pert": 0.013434464562790314,
+      "delta": -1.0552832243937438e-05,
+      "delta_over_s": 0.0007852096050530272,
+      "significant": false
+    },
+    "contrast": {
+      "mean_base": 0.11621473993028404,
+      "s_base": 0.01016778478547213,
+      "mean_pert": 0.10493004805335246,
+      "s_pert": 0.01095909362856207,
+      "delta": -0.011284691876931582,
+      "delta_over_s": 1.1098476329923215,
+      "significant": false
+    },
+    "edge": {
+      "mean_base": 0.01976625386996904,
+      "s_base": 0.0005477366834558457,
+      "mean_pert": 0.018781475748194013,
+      "s_pert": 0.00046509116494456126,
+      "delta": -0.0009847781217750262,
+      "delta_over_s": 1.7979042695511034,
+      "significant": false
+    },
+    "entropy": {
+      "mean_base": 6.875629856728461,
+      "s_base": 0.12238731808005744,
+      "mean_pert": 6.734984831281897,
+      "s_pert": 0.15545935144923406,
+      "delta": -0.1406450254465632,
+      "delta_over_s": 1.1491797324504065,
+      "significant": false
+    }
+  },
+  "significance_rule": "|Δ| > 2.0·s_base",
+  "env": {
+    "python": "3.14.2",
+    "implementation": "CPython",
+    "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "zlib": "1.2.12",
+    "generator_version": "1.0",
+    "third_party_packages": "не используются (стандартная библиотека)"
+  },
+  "script_sha256": {
+    "lab01_generator.py": "8f07d340a5a765a8e44f1fec407489cf00114ba54216aa7539c4e7116680e152",
+    "lab01_experiment.py": "69257206dab50ef35de448b45764daad0d4f60dbc98febd8953c6faee28e06b5"
+  }
+}
