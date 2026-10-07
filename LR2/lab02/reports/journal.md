@@ -1,6 +1,6 @@
 # Журнал ЛР 2 — вариант 18
 
-Исполнитель: [ФИО, группа]. Машина: macOS, arm64. Среда — из ЛР 1: `LR1/lab01/.venv` (CPython 3.14.2), сторонние пакеты не используются.
+Исполнитель: Беспалый Максим Евгеньевич, Т26ИИКТ-МИК11. Машина: macOS, arm64. Среда — из ЛР 1: `LR1/lab01/.venv` (CPython 3.14.2), сторонние пакеты не используются.
 
 ## 2026-10-07 11:39:03 UTC — шаг 1: данные варианта
 
@@ -105,7 +105,7 @@ $ python src/lab02_model_card.py --passport ../../LR1/lab01/artifacts/v18/passpo
 карточка модели записана: artifacts/model_card_raw.md
 ```
 ```text
-$ python src/lab02_model_card.py --passport ../../LR1/lab01/artifacts/v18/passport.json --owner "[ФИО], исполнитель ЛР 1, вариант 18" --out artifacts/model_card.md
+$ python src/lab02_model_card.py --passport ../../LR1/lab01/artifacts/v18/passport.json --owner "Беспалый Максим Евгеньевич, исполнитель ЛР 1, вариант 18" --out artifacts/model_card.md
 карточка модели записана: artifacts/model_card.md
 ```
 
