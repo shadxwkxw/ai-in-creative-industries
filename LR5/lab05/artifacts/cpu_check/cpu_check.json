@@ -1,0 +1,17 @@
+{
+  "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "torch": "2.14.0",
+  "diffusers": "0.40.0",
+  "threads": 4,
+  "dtype": "float32",
+  "device": "cpu",
+  "t_single": 19.9,
+  "t_batch4": 92.1,
+  "repeat_single_equal": true,
+  "sha_A": "1752afe7860dcd92eaea7c69f165eb67f334e44f11e812a5e48d988e5c0a4f26",
+  "sha_B": "190e6e5c8edb5a78fe3e22a0f616cabd07f09a1a0981da09c715c37eb3449bb3",
+  "pixel_equal": false,
+  "max_diff": 1,
+  "psnr": 71.69163654193925,
+  "elem1_vs_single_seed+1_psnr": 72.42318815105443
+}

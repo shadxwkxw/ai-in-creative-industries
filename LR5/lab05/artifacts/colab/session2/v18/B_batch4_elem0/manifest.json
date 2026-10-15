@@ -1,0 +1,39 @@
+{
+  "variant": 18,
+  "condition": "batch",
+  "run": "B_batch4_elem0",
+  "model_id": "stabilityai/sd-turbo",
+  "revision": "b261bac6fd2cf515557d5d0707481eafa0485ec2",
+  "prompt": "poster concept for a science exhibition, abstract constellation of connected nodes, dark background with white and cyan lines, balanced composition, no text, no logo",
+  "seed": 1018,
+  "steps": 1,
+  "guidance_scale": 0.0,
+  "size": 512,
+  "generator_device": "cpu",
+  "dtype": "float16",
+  "batch_size": 4,
+  "batch_index": 0,
+  "device": "Tesla T4",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "python": "3.13.15",
+  "cuda": "13.0",
+  "cudnn": 92700,
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "diffusers": "0.40.0",
+    "transformers": "5.18.0",
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0",
+    "PIL": "11.3.0"
+  },
+  "load_seconds": 42.5,
+  "generation_seconds": 1.291,
+  "image_size": [
+    512,
+    512
+  ],
+  "image_mode": "RGB",
+  "sha256": "f76faa5876e03320d3839d01330cb406e2f58dda161fdf59829291e8ee091217",
+  "session": "56b1382c",
+  "created_utc": "2026-10-15T14:46:30.102401+00:00"
+}
