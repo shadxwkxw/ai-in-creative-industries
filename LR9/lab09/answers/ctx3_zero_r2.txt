@@ -1,0 +1,47 @@
+[
+  {
+    "subject": "constellation of connected glowing nodes forming a network",
+    "setting": "dark background",
+    "style": "minimal geometric",
+    "lighting": "soft glow",
+    "palette": ["white", "blue", "black"],
+    "composition": "centered",
+    "avoid": ["logo"]
+  },
+  {
+    "subject": "large crystals seen under a microscope",
+    "setting": "microscope slide with dark neutral background",
+    "style": "macro photography",
+    "lighting": "cool diffused light",
+    "palette": ["blue", "teal", "white"],
+    "composition": "close-up",
+    "avoid": []
+  },
+  {
+    "subject": "nebula with a lone space probe",
+    "setting": "deep space",
+    "style": "3D render",
+    "lighting": "soft nebula glow",
+    "palette": ["blue", "black", "white"],
+    "composition": "symmetrical",
+    "avoid": []
+  },
+  {
+    "subject": "abstract DNA double helix spiral made of glowing lines",
+    "setting": "dark background",
+    "style": "3D render",
+    "lighting": "luminous glow",
+    "palette": ["blue", "purple", "white"],
+    "composition": "centered",
+    "avoid": []
+  },
+  {
+    "subject": "solar panels and wind turbines in a field",
+    "setting": "open landscape at sunset",
+    "style": "flat vector illustration",
+    "lighting": "warm sunset light",
+    "palette": ["orange", "amber", "blue"],
+    "composition": "wide negative space",
+    "avoid": []
+  }
+]

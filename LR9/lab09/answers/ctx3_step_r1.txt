@@ -1,0 +1,57 @@
+Ключевые элементы
+
+Предмет: созвездие из соединённых узлов. Фон тёмный. Цвета: белый, голубой (blue). Запрет: логотипы. Стиль не задан, подходит minimal geometric. Композиция по умолчанию: centered.
+Предмет: крупные кристаллы под микроскопом. Гамма холодная: blue, teal, white. Красный и orange не использовать, это ограничение на цвета, а не запрет из списка avoid, поэтому avoid пустой. Стиль: macro photography. Композиция: close-up.
+Предмет: туманность и одинокий зонд. Цвет: глубокий синий (blue). Композиция: symmetrical (симметрия). Запретов нет. Стиль не задан, выбран 3D render.
+Предмет: абстрактная спираль ДНК со светящимися линиями. Фон тёмный. Палитра ровно три цвета: blue, purple, white. Запретов нет. Стиль: 3D render.
+Предмет: солнечные панели и ветряки. Время: закат. Цвета: orange, amber, blue. Композиция: широкая, то есть wide negative space. Запретов нет. Стиль: flat vector illustration.
+json
+[
+  {
+    "subject": "constellation of connected glowing nodes and thin lines",
+    "setting": "dark night sky background",
+    "style": "minimal geometric",
+    "lighting": "soft glow on dark",
+    "palette": ["white", "blue"],
+    "composition": "centered",
+    "avoid": ["logo"]
+  },
+  {
+    "subject": "large crystals seen under a microscope",
+    "setting": "microscopic world, dark neutral background",
+    "style": "macro photography",
+    "lighting": "cool backlit microscope light",
+    "palette": ["blue", "teal", "white"],
+    "composition": "close-up",
+    "avoid": []
+  },
+  {
+    "subject": "nebula and a lone space probe",
+    "setting": "deep space, starry void",
+    "style": "3D render",
+    "lighting": "faint nebula glow",
+    "palette": ["blue"],
+    "composition": "symmetrical",
+    "avoid": []
+  },
+  {
+    "subject": "abstract DNA double helix made of glowing lines",
+    "setting": "dark abstract background",
+    "style": "3D render",
+    "lighting": "luminous neon glow",
+    "palette": ["blue", "purple", "white"],
+    "composition": "centered",
+    "avoid": []
+  },
+  {
+    "subject": "solar panels and wind turbines in a field",
+    "setting": "open landscape at sunset horizon",
+    "style": "flat vector illustration",
+    "lighting": "warm sunset light",
+    "palette": ["orange", "amber", "blue"],
+    "composition": "wide negative space",
+    "avoid": []
+  }
+]
+
+Важная поправка: в первом объекте в поле avoid должно быть "logo" — это значение из разрешённого списка, и оно записано верно. Все остальные поля соответствуют ограничениям по списку и длине.

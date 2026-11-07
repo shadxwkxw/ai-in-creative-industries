@@ -1,0 +1,58 @@
+Ключевые элементы
+
+Предмет: созвездие из соединённых узлов. Стиль: не задан, выбран minimal geometric. Цвета: белый, голубой, тёмный фон. Ограничение: без логотипов.
+Предмет: крупные кристаллы под микроскопом. Стиль: не задан, выбрана macro photography. Цвета: холодная гамма, без красного и оранжевого. Ограничения: нет. Запрет на цвета не относится к допустимым значениям avoid, поэтому он учтён в палитре.
+Предмет: туманность и одинокий зонд. Стиль: не задан, выбран 3D render. Цвета: глубокий синий. Композиция: симметрия. Ограничения: нет.
+Предмет: абстрактная спираль ДНК из светящихся линий. Стиль: не задан, выбран 3D render. Цвета: голубой, фиолетовый, белый (ровно три). Фон: тёмный. Ограничения: нет.
+Предмет: солнечные панели и ветряки на закате. Стиль: не задан, выбран photorealistic. Цвета: тёплые закатные. Композиция: широкая. Ограничения: нет.
+
+Итоговый JSON
+
+json
+[
+  {
+    "subject": "constellation of connected glowing nodes",
+    "setting": "dark background",
+    "style": "minimal geometric",
+    "lighting": "soft glow",
+    "palette": ["white", "blue"],
+    "composition": "centered",
+    "avoid": ["logo"]
+  },
+  {
+    "subject": "large crystals seen under a microscope",
+    "setting": "microscopic world, cool-toned backdrop",
+    "style": "macro photography",
+    "lighting": "cool crisp lighting",
+    "palette": ["blue", "teal", "white"],
+    "composition": "close-up",
+    "avoid": []
+  },
+  {
+    "subject": "nebula with a lone space probe",
+    "setting": "deep space",
+    "style": "3D render",
+    "lighting": "faint nebula glow",
+    "palette": ["blue", "black"],
+    "composition": "symmetrical",
+    "avoid": []
+  },
+  {
+    "subject": "abstract DNA double helix made of glowing lines",
+    "setting": "dark background",
+    "style": "3D render",
+    "lighting": "glowing neon light",
+    "palette": ["blue", "purple", "white"],
+    "composition": "centered",
+    "avoid": []
+  },
+  {
+    "subject": "solar panels and wind turbines at sunset",
+    "setting": "open landscape at sunset",
+    "style": "photorealistic",
+    "lighting": "warm golden sunset light",
+    "palette": ["orange", "amber", "blue"],
+    "composition": "wide negative space",
+    "avoid": []
+  }
+]

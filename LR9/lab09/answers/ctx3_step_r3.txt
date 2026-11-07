@@ -1,0 +1,55 @@
+Ключевые элементы
+
+Предмет: созвездие из соединённых узлов. Стиль: плакат, подходит минимальная геометрия. Цвета: белый, голубой (blue), тёмный фон (black). Ограничения: без логотипов.
+Предмет: крупные кристаллы под микроскопом. Стиль: макрофотография. Цвета: холодная гамма (blue, teal, white). Ограничения: красный и оранжевый не использовать. Это не пункт списка avoid, поэтому они просто не попадают в палитру, а avoid пуст.
+Предмет: туманность и одинокий зонд. Стиль: 3D-рендер. Цвета: глубокий синий (blue, black). Композиция: симметрия. Ограничений нет.
+Предмет: абстрактная спираль ДНК со светящимися линиями на тёмном фоне. Цвета ровно три: голубой (blue), фиолетовый (purple), белый (white). Ограничений нет.
+Предмет: солнечные панели и ветряки на закате. Стиль: фотореализм. Цвета: тёплый закат (orange, amber, blue). Композиция: широкая, с большим свободным пространством. Ограничений нет.
+json
+[
+  {
+    "subject": "constellation of connected glowing nodes and lines",
+    "setting": "dark night background",
+    "style": "minimal geometric",
+    "lighting": "soft glow",
+    "palette": ["white", "blue", "black"],
+    "composition": "centered",
+    "avoid": ["logo"]
+  },
+  {
+    "subject": "large crystals seen under a microscope",
+    "setting": "dark microscope field background",
+    "style": "macro photography",
+    "lighting": "cool polarized light",
+    "palette": ["blue", "teal", "white"],
+    "composition": "close-up",
+    "avoid": []
+  },
+  {
+    "subject": "nebula with a lone space probe",
+    "setting": "deep space starfield",
+    "style": "3D render",
+    "lighting": "soft nebula glow",
+    "palette": ["blue", "black"],
+    "composition": "symmetrical",
+    "avoid": []
+  },
+  {
+    "subject": "abstract DNA double helix spiral of glowing lines",
+    "setting": "dark background",
+    "style": "3D render",
+    "lighting": "glowing neon light",
+    "palette": ["blue", "purple", "white"],
+    "composition": "centered",
+    "avoid": []
+  },
+  {
+    "subject": "solar panels and wind turbines",
+    "setting": "open field at sunset",
+    "style": "photorealistic",
+    "lighting": "warm golden sunset light",
+    "palette": ["orange", "amber", "blue"],
+    "composition": "wide negative space",
+    "avoid": []
+  }
+]
